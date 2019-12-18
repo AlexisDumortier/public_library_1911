@@ -18,4 +18,8 @@ class Author
     book
   end
 
+  def books_publication_year
+    @books.map {|book| book.publication_year}
+  end    
+
 end
