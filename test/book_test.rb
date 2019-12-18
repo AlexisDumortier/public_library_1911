@@ -14,6 +14,7 @@ class BookTest < Minitest::Test
     assert_equal "To Kill a Mockingbird", book.title
     assert_equal "Harper Lee", book.author
     assert_equal "1960", book.publication_year
+    assert_equal false, book.checked_out
   end
 
 end
